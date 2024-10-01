@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header{
+    background-color: rgb(231, 231, 241);
+    color: rgb(35, 54, 230);
+    height: 70px;
+}
+.header-buttons{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap:40px;
+    padding-top: 25px;
+   padding-right: 30px;
+}
